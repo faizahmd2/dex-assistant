@@ -1,0 +1,33 @@
+{
+  "name": "ai-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app/index.js",
+    "start": "bash start.sh",
+    "stop": "bash stop.sh",
+    "logs": "bash scripts/logs.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mozilla/readability": "~0.6.0",
+    "axios": "~1.18.1",
+    "better-sqlite3": "~12.11.1",
+    "chrono-node": "~2.10.0",
+    "cors": "~2.8.6",
+    "dayjs": "~1.11.21",
+    "dotenv": "~17.4.2",
+    "express": "~5.2.1",
+    "js-yaml": "~5.2.1",
+    "jsdom": "~29.1.1",
+    "uuid": "~14.0.1",
+    "yaml": "~2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "~3.1.14"
+  }
+}

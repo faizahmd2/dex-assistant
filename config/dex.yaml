@@ -1,0 +1,23 @@
+ollama:
+  host: http://localhost:11434
+  model: llama3.2:3b
+  temperature: 0.4
+  num_ctx: 6000
+  num_predict: 600
+
+qdrant:
+  host: http://localhost:6333
+
+embedding:
+  host: http://localhost:8001
+
+memory:
+  max_items: 20
+
+retrieval:
+  top_k: 6
+  score_threshold: 0.1
+  file_read_threshold: 4000   # chars — read whole file if smaller
+
+server:
+  port: 4000

@@ -1,0 +1,21 @@
+global_context:
+  description: >
+    Registry of entry types stored in Dex's database (entries table).
+    It only tells the classifier which types exist and how to search them.
+
+types:
+  journal:
+    description: "Personal journal entries — daily thoughts, reflections, plans, what happened that day."
+    date_scoped: true
+
+  notes:
+    description: "Quick standalone notes — ideas, snippets, links, things to keep without needing a date context."
+    date_scoped: false
+
+  email:
+    description: "Summarized emails and extracted action items. (Not yet populated.)"
+    date_scoped: true
+
+  general:
+    description: "Default catch-all for anything that doesn't fit a specific type above."
+    default: true
