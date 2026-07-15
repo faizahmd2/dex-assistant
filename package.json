@@ -8,7 +8,7 @@
     "dev": "nodemon app/index.js",
     "start": "bash start.sh",
     "stop": "bash stop.sh",
-    "logs": "bash scripts/logs.sh"
+    "logs": "bash logs.sh"
   },
   "keywords": [],
   "author": "",
